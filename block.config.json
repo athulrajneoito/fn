@@ -1,0 +1,17 @@
+{
+  "name": "fn",
+  "type": "job",
+  "source": {
+    "https": "https://github.com/athulrajneoito/fn",
+    "ssh": "git@github.com:athulrajneoito/fn.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "job": {
+    "time_zone": "UTC",
+    "schedule": "* * 1 * *"
+  }
+}
