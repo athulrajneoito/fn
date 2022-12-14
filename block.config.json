@@ -12,6 +12,6 @@
   "standAloneBlock": false,
   "job": {
     "time_zone": "UTC",
-    "schedule": "* * 1 * *"
+    "schedule": "* * 5 * *"
   }
 }
